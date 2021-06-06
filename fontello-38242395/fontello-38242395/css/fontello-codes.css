@@ -1,0 +1,4 @@
+
+.icon-female:before { content: '\e800'; } /* '' */
+.icon-male:before { content: '\e801'; } /* '' */
+.icon-user-plus:before { content: '\f234'; } /* '' */

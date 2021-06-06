@@ -1,0 +1,587 @@
+/* Background pattern from Toptal Subtle Patterns */
+body
+{
+	background-image: url("../img/geometric-leaves.png");
+	font-size:35px;
+}
+
+header
+{
+	
+	
+}
+
+abbr {
+    text-decoration: none;
+}
+
+blockquote {
+    padding:5px;
+    margin:5px;
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=email]
+{
+	width: 600px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+textarea
+{
+	width: 600px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+	resize:vertical;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=date]:focus,
+input[type=email]:focus
+{
+	-webkit-box-shadow:	0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow:	0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow:			0px 0px 10px 2px rgba(204,204,204,0.9); 
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+
+textarea:focus
+{
+	-webkit-box-shadow:	0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow:	0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow:			0px 0px 10px 2px rgba(204,204,204,0.9); 
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+
+input[type=submit]
+{
+	width: 600px;
+	background-color: #36b03c;
+	font-size:20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:hover
+{
+	background-color:#37b93d;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow:	0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow:	0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow:			0px 0px 15px 5px rgba(204,204,204,0.9); 
+}
+
+select
+{
+	width: 600px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 25px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+.headContainer
+{
+	border-radius: 25px;
+	background-color: #FFF0F5;
+	width:600px;
+	padding-left:50px ;
+	padding-right:50px ;
+	padding-top:15px ;
+	padding-bottom:15px ;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9); 
+}
+
+.navContainer
+{
+	border-radius: 25px;
+	background-color: white;
+	width:600px;
+	padding: 50px ;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9); 
+	
+}
+
+.container
+{
+	background-color: white;
+	width:600px;
+	padding: 50px ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9); 
+}
+
+.kidsContainer
+{
+	background-color: white;
+        border-radius: 25px;
+	width:600px;
+	padding: 50px ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9); 
+}
+
+.kidContainer
+{
+	background-color: white;
+	width:510px;
+	padding: 10px ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9); 
+}
+
+.kidPicture
+{
+	width:200px;
+	float:left;
+}
+
+.kidInfo
+{
+	width:300px;
+	float:left;
+}
+.footContainer
+{
+	border-radius: 15px;
+	background-color: white;
+	width:660px;
+	padding: 20px ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9); 
+	font-size:20px;
+	text-align:center;
+}
+
+.navButton
+{
+	border-radius: 15px;
+	margin:5px;
+	padding:5px;
+	-webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+	background-color:#e7a61a;
+}
+
+.kidsNav
+{
+	width:550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+	text-align:center;
+	font-size:28px;
+}
+
+.kidNavButton
+{
+	border-radius: 12px;
+	margin:5px;
+	padding:5px;
+	-webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+	background-color:#e7a61a;
+}
+
+a:link
+{
+	color:black;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color:black;
+	text-decoration: none;
+}
+
+a:active
+{
+	color:black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:white;
+}
+
+
+
+h1
+{
+	text-align:center;
+	padding: 20px;
+}
+
+.error
+{
+	color:red;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size: 10px;
+}
+
+.post
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	width:660px;
+	border:2px solid black;
+	border-radius: 25px;
+	background: #66d9ff;
+	padding: 20px;
+}
+
+.quote
+{
+	font-size:22px;
+	width: 400px;
+	margin:15px;
+	font-style:italic;
+	float:left;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.picture
+{
+	margin-top:20px;
+	width:200px;
+	float:left;
+}
+
+.quote_date
+{
+	font-size:18px;
+	font-style:italic;
+	text-align:right;
+}
+
+.addKidSub
+{
+	background-color:white;
+}
+
+.signInButton
+{
+    text-align: center;
+    width: 250px;
+    background-color: #1E90FF;
+    font-size:14px;
+    color: white;
+    padding: 15px 10px;
+    margin-top: 20px;
+    margin-left:0px;
+    margin-right:auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+.recoveryButton
+{
+    text-align: center;
+    width: 250px;
+    background-color: #1E90FF;
+    font-size:14px;
+    color: white;
+    padding: 15px 10px;
+    margin-top: 20px;
+    margin-left:0px;
+    margin-right:auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+
+.signInButton:hover
+{
+    background-color:#6495ED;
+}
+
+.signInButton:focus
+{
+    -webkit-box-shadow:	0px 0px 15px 5px rgba(204,204,204,0.9);
+    -moz-box-shadow:	0px 0px 15px 5px rgba(204,204,204,0.9);
+    box-shadow:			0px 0px 15px 5px rgba(204,204,204,0.9); 
+}
+
+.recoveryButton:hover
+{
+    background-color:#6495ED;
+}
+
+.recoveryButton:focus
+{
+    -webkit-box-shadow:	0px 0px 15px 5px rgba(204,204,204,0.9);
+    -moz-box-shadow:	0px 0px 15px 5px rgba(204,204,204,0.9);
+    box-shadow:			0px 0px 15px 5px rgba(204,204,204,0.9); 
+}
+
+#terms_label {
+    font-size: 16px;
+}
+
+#terms_link {
+    font-size: 16px;
+}
+#terms_link:hover {
+    color:red;
+}
+
+.register_warning{
+    font-size:14px;
+    margin-bottom: 30px;
+    border: 1px dotted #666;
+    border-radius: 10px;
+    padding:15px;
+    background-color: #FFEBCD;
+}
+
+.register_labels {
+    font-size:10px;
+    float:left;
+    
+}
+.register_labels_par {
+    border:2px solid #ddd;
+    border-radius: 5px;
+    padding:6px;
+    vertical-align: center;
+    background-color: #B0E0E6;
+}
+
+
+.relationsContainer
+{
+	background-color: white;
+        border-radius: 25px;
+	width:600px;
+	padding: 50px ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9); 
+}
+
+.relationsNav
+{
+	width:550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+	text-align:center;
+	font-size:28px;
+}
+
+.relationsNavButton
+{
+	border-radius: 12px;
+	margin:5px;
+	padding:5px;
+	-webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+	background-color:#e7a61a;
+}
+
+.observerButton
+{
+    font-size:16px;
+    text-align: center;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:5px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    background-color:#e7a61a;
+}
+
+.invitation_msg{
+    font-size:22px;
+    border-radius:7px;
+    background-color:#e7a61a;
+    padding:12px;
+    margin:4px 20px 15px 20px;
+    text-align: center;
+}
+
+.invitation_accept{
+    text-align: center;
+    font-size:26px;
+    padding:8px;
+    margin:6px;
+    width:280px;
+    background-color:#36b03c;
+    border: 1px solid black;
+    border-radius:6px;
+}
+.invitation_accept:hover{
+    color:white;
+}
+
+.invitation_decline{
+    text-align: center;
+    font-size:26px;
+    padding:8px;
+    margin:6px;
+    width:280px;
+    background-color:#FF7F50;
+    border: 1px solid black;
+    border-radius:6px;
+}
+
+.invitation_decline:hover{
+    color:white;
+}
+
+.parent_check{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-right:35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: center;
+}
+
+.parent_check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.parent_checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 35px;
+  width: 35px;
+  background-color: #eee;
+  border: 1px solid gray;
+}
+
+/* On mouse-over, add a grey background color */
+.parent_check:hover input ~ .parent_checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.parent_check input:checked ~ .parent_checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.parent_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.parent_check input:checked ~ .parent_checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.parent_check .parent_checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
